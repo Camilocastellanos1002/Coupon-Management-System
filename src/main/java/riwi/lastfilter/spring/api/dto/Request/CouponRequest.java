@@ -1,4 +1,4 @@
-package riwi.lastfilter.spring.api.dto.request;
+package riwi.lastfilter.spring.api.dto.Request;
 
 import java.time.LocalDateTime;
 
