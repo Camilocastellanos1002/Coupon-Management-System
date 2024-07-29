@@ -1,7 +1,5 @@
 package riwi.lastfilter.spring.infrastructure.services;
 
-import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -28,11 +26,6 @@ public class UserService implements IUserService
     {
         User user = userMapper.toEntity(request);
         return userMapper.toDTOEntity(userRepository.save(user));
-    }
-
-    private Optional<User> find(String id) {
-        return this.userRepository.findById(id);
-            /* .orElseThrow(() -> new BadRequestException("No User found with the supplied ID"));*/
     }
         
 }

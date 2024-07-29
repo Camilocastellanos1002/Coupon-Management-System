@@ -13,6 +13,7 @@ import riwi.lastfilter.spring.infrastructure.abstrasct_services.IUpdate;
 
 public interface ICouponService extends IFindAll<PageRequest, Page<Coupon>>,
 ICreate<CouponRequest, CouponResponse>,
-IDelete<Long,Void >,IUpdate<CouponRequest,CouponResponse, Long>{
+IDelete<Long,Void >,
+IUpdate<CouponRequest,CouponResponse, Long>{
     
 }
