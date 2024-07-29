@@ -25,5 +25,5 @@ public class BuyResponse {
     private UserResponse user;
 
     @Schema(description = "Product information")
-    private ProductResponse product;
+    private Product product;
 }
