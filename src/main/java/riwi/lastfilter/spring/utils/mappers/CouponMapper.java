@@ -14,6 +14,7 @@ public interface CouponMapper {
     CouponResponse toGetResp (Coupon coupon);
 
     @Mapping(target = "buys", ignore = true)
+    @Mapping(target = "id", ignore = true)
     Coupon toGetEntity (CouponRequest request);
 
     

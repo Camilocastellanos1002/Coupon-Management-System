@@ -5,9 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import riwi.lastfilter.spring.domain.entities.Coupon;
 import riwi.lastfilter.spring.domain.entities.Product;
-import riwi.lastfilter.spring.domain.entities.User;
 
 @Data
 @Builder

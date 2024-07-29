@@ -1,13 +1,11 @@
 package riwi.lastfilter.spring.api.dto.response;
 
-import java.util.List;
-
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import riwi.lastfilter.spring.domain.entities.Buy;
+
 
 @Data
 @Builder
@@ -24,6 +22,4 @@ public class UserResponse
     @Schema(description = "Email", example = "test@gmail.com")
     private String email;
 
-    @Schema(description = "User List of Buys")
-    private List<Buy> buys;
 }

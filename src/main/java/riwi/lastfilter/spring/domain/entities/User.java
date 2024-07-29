@@ -1,13 +1,9 @@
 package riwi.lastfilter.spring.domain.entities;
 
-import java.util.List;
-
-import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -33,10 +29,4 @@ public class User {
     @Column(length = 64, nullable = false)
     private String password;
 
-    @OneToMany(
-        mappedBy = "user",
-        cascade = CascadeType.ALL,
-        orphanRemoval = true
-    )
-    private List<Buy> buys;
 }
