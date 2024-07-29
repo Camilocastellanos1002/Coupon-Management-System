@@ -24,13 +24,13 @@ public class Buy {
 
     @ManyToOne
     @JoinColumn(name = "coupon_Id", referencedColumnName = "id")
-    private Long couponId;
+    private Coupon coupon;
 
     @ManyToOne
     @JoinColumn(name = "user_Id", referencedColumnName = "id")
-    private String userId;
+    private User user;
 
     @ManyToOne
     @JoinColumn(name = "product_Id", referencedColumnName = "id")
-    private Long productId;
+    private Product product;
 }
