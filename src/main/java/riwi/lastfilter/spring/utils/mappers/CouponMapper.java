@@ -4,8 +4,8 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingConstants;
 
-import riwi.lastfilter.spring.api.dto.Response.CouponResponse;
 import riwi.lastfilter.spring.api.dto.request.CouponRequest;
+import riwi.lastfilter.spring.api.dto.response.CouponResponse;
 import riwi.lastfilter.spring.domain.entities.Coupon;
 
 @Mapper(componentModel = MappingConstants.ComponentModel.SPRING)
