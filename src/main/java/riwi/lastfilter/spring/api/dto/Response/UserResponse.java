@@ -1,4 +1,4 @@
-package riwi.lastfilter.spring.api.dto.response;
+package riwi.lastfilter.spring.api.dto.Response;
 
 import java.util.List;
 
