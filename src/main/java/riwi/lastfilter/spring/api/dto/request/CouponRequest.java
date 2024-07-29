@@ -2,6 +2,7 @@ package riwi.lastfilter.spring.api.dto.request;
 
 import java.time.LocalDateTime;
 
+import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,9 +15,13 @@ import riwi.lastfilter.spring.utils.enums.StateType;
 @Builder
 public class CouponRequest {
 
-    private Long id;
+    @NotBlank(message = "The expiration date is required")
     private LocalDateTime expirationDate;
+
+    @NotBlank(message = "The discount percent is required")
     private double discountPercent;
+
+    @NotBlank(message = "The discount percent is required")
     private StateType state;
 
 }
