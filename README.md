@@ -1,6 +1,4 @@
-# Coupon-Management-System
-
-Spring Boot Employability Assessment Repository
+# Riwi Spring Boot Employability Assessment Repository for Coupon Management System
 
 ## members: 
 
@@ -8,4 +6,9 @@ Spring Boot Employability Assessment Repository
 * Juan Fernando Yepes Higuita
 * Daniela Jiménez Hernández
 * Juan Camilo Chaparro Castellanos
+
+
+## task management board: 
+
+  https://trello.com/b/G6nKYkEg/group-f
 
