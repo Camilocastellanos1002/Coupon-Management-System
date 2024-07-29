@@ -19,11 +19,11 @@ public class BuyResponse {
     private Long id;
 
     @Schema(description = "Coupon information")
-    private CouponResponse coupon;
+    private Coupon coupon;
 
     @Schema(description = "User information")
     private UserResponse user;
 
     @Schema(description = "Product information")
-    private ProductResponse product;
+    private Product product;
 }
