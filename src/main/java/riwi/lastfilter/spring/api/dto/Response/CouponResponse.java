@@ -23,5 +23,6 @@ public class CouponResponse {
 
     private StateType state;
 
+    //listas
     private List<Buy> buys;
 }
