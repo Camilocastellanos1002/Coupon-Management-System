@@ -5,9 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import riwi.lastfilter.spring.api.dto.Response.UserResponse;
 import riwi.lastfilter.spring.domain.entities.Coupon;
 import riwi.lastfilter.spring.domain.entities.Product;
+import riwi.lastfilter.spring.domain.entities.User;
 
 @Data
 @Builder
@@ -19,11 +19,11 @@ public class BuyResponse {
     private Long id;
 
     @Schema(description = "Coupon information")
-    private Coupon coupon;
+    private CouponResponse coupon;
 
     @Schema(description = "User information")
     private UserResponse user;
 
     @Schema(description = "Product information")
-    private Product product;
+    private ProductResponse product;
 }
