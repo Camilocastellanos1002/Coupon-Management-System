@@ -1,6 +1,6 @@
 package riwi.lastfilter.spring.infrastructure.services;
 
-import org.springdoc.core.converters.models.Pageable;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -8,10 +8,8 @@ import org.springframework.stereotype.Service;
 
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import riwi.lastfilter.spring.domain.entities.Product;
 import riwi.lastfilter.spring.domain.repositories.ProductRepository;
-import riwi.lastfilter.spring.infrastructure.abstrasct_services.IFindAll;
 import riwi.lastfilter.spring.infrastructure.abstrasct_services.interface_services.IProductService;
 
 @Service
