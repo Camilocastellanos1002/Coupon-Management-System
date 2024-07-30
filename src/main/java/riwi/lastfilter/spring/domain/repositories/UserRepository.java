@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import riwi.lastfilter.spring.domain.entities.User;
 
 @Repository
-public interface UserRepository  extends JpaRepository<User, String> {
-    
+public interface UserRepository extends JpaRepository<User, String> {
+
 }
